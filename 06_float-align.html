@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>float and alignment</title>
+    <style>
+        
+        .container{
+            max-width: 56vw;
+            margin: auto;
+        }
+        .box-1,.box-2,.box-3,.box-4{
+            background: lightgray;
+            border: 2px solid #333;
+            padding: 10px;
+            margin: 10px 0;
+        }
+        .box-2{
+            float: left;
+            width: 30%;
+        } 
+        .box-3{
+            float: right;
+            width: 60%;
+            height: 52vh;
+        }
+        .box-4{
+            clear: both;
+        }
+         
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box-1">
+            <h2>box one</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officiis vel corrupti similique at ratione, laudantium commodi dolorem exercitationem! Accusamus, nesciunt illum! Eius, ad earum! Praesentium nam excepturi modi accusamus.</p>
+        </div>
+        <div class="box-2">
+            <h2>box two</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officiis vel corrupti similique at ratione,
+                laudantium commodi dolorem exercitationem! Accusamus, nesciunt illum! Eius, ad earum! Praesentium nam excepturi
+                modi accusamus.</p>
+        </div>
+        <div class="box-3">
+            <h2>box three</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officiis vel corrupti similique at ratione,
+                laudantium commodi dolorem exercitationem! Accusamus, nesciunt illum! Eius, ad earum! Praesentium nam excepturi
+                modi accusamus.</p>
+        </div>
+        <div class="box-4">
+            <h2>box four</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam officiis vel corrupti similique at ratione, Lorem, ipsum.
+                laudantium commodi dolorem exercitationem! Accusamus, nesciunt illum! Eius, ad earum! Praesentium nam excepturi
+                modi accusamus.</p>
+        </div>
+    </div>
+</body>
+</html>
